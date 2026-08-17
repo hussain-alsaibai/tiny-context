@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiny-context"
+version = "0.1.0"
+description = "Zero-dependency LLM context window manager — budgeting, importance-aware fitting, pluggable compression, model routing."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "hussain-alsaibai", email = "hussain.alsaibai@gmail.com" }]
+keywords = ["llm", "context", "tokens", "rag", "prompt", "budget", "router", "zero-dep"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/hussain-alsaibai/tiny-context"
+
+[tool.setuptools]
+py-modules = ["tiny_context"]
